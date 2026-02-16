@@ -1,6 +1,7 @@
-import { View, Text, Button } from 'react-native'
+import { View, Text } from 'react-native'
 import React from 'react'
 import { supabase } from '~/src/lib/supabase'
+import { Button } from '~/src/components/Button'
 
 export default function home() {
   return (
