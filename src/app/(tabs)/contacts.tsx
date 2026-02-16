@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function singup() {
+export default function contacts() {
   return (
     <View>
-      <Text>singup</Text>
+      <Text>contacts</Text>
     </View>
   )
 }
