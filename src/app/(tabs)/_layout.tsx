@@ -10,7 +10,7 @@ export default function _layout() {
     return <Redirect href="/(auth)" />;
   }
   return <Tabs screenOptions={{headerShown: false}}>
-    <Tabs.Screen name='home'/>
+    <Tabs.Screen name='index'/>
     <Tabs.Screen name='contacts'/>
     <Tabs.Screen name='history'/>
   </Tabs>
